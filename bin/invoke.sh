@@ -6,6 +6,18 @@ if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
     exit 1
 fi
 
+# Check if jq is installed
+if ! command -v jq &> /dev/null; then
+    echo "Error: jq could not be found. Please install jq."
+    exit 1
+fi
+
+# Check if sf is installed
+if ! command -v sf &> /dev/null; then
+    echo "Error: sf could not be found. Please install Salesforce CLI."
+    exit 1
+fi
+
 # Set variables from script arguments
 SF_ORG_ALIAS="$1"
 API_URL="$2"
