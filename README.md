@@ -1,6 +1,6 @@
 # Build Custom Agentforce Actions with Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/heroku-examples/heroku-tdx25-agentforce)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/heroku-examples/applink-agentforce-workshop)
 
 > [!IMPORTANT]
 > If you are taking part in a Heroku Workshop please continue to refer to the workshop instructions provided.
